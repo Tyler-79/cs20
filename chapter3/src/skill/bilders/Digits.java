@@ -16,7 +16,7 @@ public class Digits {
 				Scanner userinput = new Scanner(System.in);
 				
 				//Get the two-digit number from the keyboard
-				System.out.print("Enter the number:  ");
+				System.out.print("Enter the two-digit number:  ");
 				num = userinput.nextInt();
 				
 				//calculate the ones and tens
