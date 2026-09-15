@@ -34,7 +34,7 @@ public class GradeAvg {
 		G5 = userinput.nextInt();
 		
 		//calculate grade average
-		
+		Avg = (G1 + G2 + G3 + G4 + G5) / 5;
 		
 		//Display the grade average
 		System.out.println("your grade average is:  " + Avg);
