@@ -12,6 +12,11 @@ public class GradeAvg {
 		int G4;
 		int G5;
 		int Avg;
+		int g1t;
+		int g2t;
+		int g3t;
+		int g4t;
+		int g5t;
 		
 		
 		//Create Scanner object
@@ -20,6 +25,8 @@ public class GradeAvg {
 		//Get the 5 grades
 		System.out.print("Enter the first grade: ");
 		G1 = userinput.nextInt();
+		
+		////g1t = G1;
 		
 		System.out.print("Enter the second grade: ");
 		G2 = userinput.nextInt();
