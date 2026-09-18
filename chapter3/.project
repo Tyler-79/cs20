@@ -14,4 +14,31 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/ipo/_cs20 IPO chart Change.txt</name>
+			<type>1</type>
+			<location>C:/Users/510204013/Downloads/_cs20 IPO chart Change.txt</location>
+		</link>
+		<link>
+			<name>src/ipo/cs20 IPO chart DivAndMod.txt</name>
+			<type>1</type>
+			<location>C:/Users/510204013/Downloads/cs20 IPO chart DivAndMod.txt</location>
+		</link>
+		<link>
+			<name>src/error/log/CS Error_Bug Log DivAndMod - Sheet1.pdf</name>
+			<type>1</type>
+			<location>C:/Users/510204013/Downloads/CS Error_Bug Log DivAndMod - Sheet1.pdf</location>
+		</link>
+		<link>
+			<name>src/reflechton/log/reflechon log for mastery Change - Sheet1 (1).pdf</name>
+			<type>1</type>
+			<location>C:/Users/510204013/Downloads/reflechon log for mastery Change - Sheet1 (1).pdf</location>
+		</link>
+		<link>
+			<name>src/reflechton/log/reflechon log for mastery DivAndMod - Sheet1.pdf</name>
+			<type>1</type>
+			<location>C:/Users/510204013/Downloads/reflechon log for mastery DivAndMod - Sheet1.pdf</location>
+		</link>
+	</linkedResources>
 </projectDescription>
