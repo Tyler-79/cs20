@@ -1,0 +1,7 @@
+﻿IPO CHART
+
+
+Program name:
+	Exercise 5: Change
+			INPUT:			|							PROCESS:																|			OUTPUT:
+An amount less than $1		|	It will calculate the minimum amount of change (quarters, dimes, nickels, and pennies)		|	Minimum amount of change needed
