@@ -6,11 +6,17 @@ import java.lang.Math;
 
 public class PerfectSquare {
 
-	public static boolean main(int num1) {
-				if (num1 < 0) return false;
+	public static void main(String[] args) {
+		//declare the integer
+				int num1 = 0;
 				
-				int root = (int) Math.sqrt(num1);
-				return root * root == num1;
+				//scanner class for user
+				Scanner userinput = new Scanner(System.in);
+						
+				//prompt the user for integer
+				System.out.println("Enter the integer: ");
+				
+				//math part i think
 				
 				
 						
