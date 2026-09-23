@@ -17,7 +17,7 @@ public class Grade {
 		//store the percentage given
 		grade = input.nextInt();
 		
-		//find what grade the user got on the test
+		//find what grade the user got on the test and show the user
 		if (grade >= 90 && grade <= 100) {System.out.println("The corresponding letter grade is: A");}
 		else if (grade >= 80 && grade <= 89) {System.out.println("The corresponding letter grade is: B");}
 		else if (grade >= 70 && grade <= 79) {System.out.println("The corresponding letter grade is: C");}
