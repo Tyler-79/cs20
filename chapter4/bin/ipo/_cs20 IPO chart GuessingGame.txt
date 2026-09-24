@@ -1,0 +1,9 @@
+﻿IPO CHART
+
+
+Program name:
+	Exercise 9: GuessingGame
+	
+			INPUT:									|							PROCESS:							|			OUTPUT:
+The user will input a number between 1 and 20		|	It will compare the user's number to the secret number		|	It will output the secret number and the user’s number, and if they are the same,		
+																													|	 it will say “you win”; if not, it will say “better luck next time		

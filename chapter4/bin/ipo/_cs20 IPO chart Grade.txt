@@ -1,0 +1,8 @@
+﻿IPO CHART
+
+
+Program name:
+	Exercise 5: Grade
+	
+			INPUT:											|							PROCESS:							|			OUTPUT:
+The user will input the percentage they got on a test		|	It will determine what grade they got: A, B, C, D, or F		|	It will output what grade they got on the test		

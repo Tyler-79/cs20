@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/error/log/CS Error_Bug Log Grade - Sheet1.pdf</name>
+			<type>1</type>
+			<location>C:/Users/510204013/Downloads/CS Error_Bug Log Grade - Sheet1.pdf</location>
+		</link>
+	</linkedResources>
 </projectDescription>
