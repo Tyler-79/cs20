@@ -28,3 +28,7 @@
 	a) y = j * k;
 	   Math.round(y);
 	b) rounding is not necessary because z is a double unlike y which is int.
+	c) rounding is not necessary because z is a double just like k both are doubles.
+	d) you would round k because j is not a double.
+	e) i think you would not need to round for this one.
+	f) rounding is not necessary because j is a int like y which is also an int.
