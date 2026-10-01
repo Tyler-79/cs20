@@ -1,0 +1,8 @@
+IPO CHART
+
+
+Program name:
+	Exercise 7: DivAndMod
+	
+			INPUT:						|								PROCESS:								|			OUTPUT:
+The user will input two integers		|	Divide and multiply them in both the first and the second spot.		|	It will show the equation and the answer to all 4 equations		
