@@ -1,0 +1,14 @@
+IPO CHART
+
+
+Program name:
+Exercise 5: Change
+	
+INPUT:																											
+The user will input an amount less than $1		
+
+PROCESS:
+it will calculate the minimum amount of change (quarters, dimes, nickels, and pennies)				
+
+OUTPUT:	
+It will show the minimum amount of change needed

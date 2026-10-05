@@ -1,0 +1,34 @@
+1)	a) DivAndMod, Change, _crt, $test
+	b) 1est (no letter at the start), #pound (can only have the special character $),  
+   spaces (avoid using a space at the start), char class; (can not have a reserved word)
+   
+2)	a) int numBeads;
+	   numBeads = 5;
+	b) int numBeads = 5;
+
+3)	a) yourNumber = 13
+	b) yourNumber = 11
+
+4)	a) int
+	b) double
+	c) int
+	d) if
+	e) if
+	f) int
+
+5)	a) a primitive data type is a concrete, built-in building block provided directly by a programming language. 
+	   but an abstract data type is a theoretical blueprint or specification that defines data and operations conceptually.
+	b) a class is a logical blueprint or template, while an object is a physical concrete instance created from that blueprint.
+	
+11) int j = 5;
+	double k = 1.6;
+	int y;
+	double z;
+	
+	a) y = j * k;
+	   Math.round(y);
+	b) rounding is not necessary because z is a double unlike y which is int.
+	c) rounding is not necessary because z is a double just like k both are doubles.
+	d) you would round k because j is not a double.
+	e) i think you would not need to round for this one.
+	f) rounding is not necessary because j is a int like y which is also an int.
