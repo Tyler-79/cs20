@@ -1,0 +1,14 @@
+IPO CHART
+
+
+Program name:
+DiceRolls
+	
+INPUT:																											
+the user will not need to input anything		
+
+PROCESS:
+the program will roll 2 dice 5 times and add each roll form both dice together			
+
+OUTPUT:	
+it will show the user the 2 dice and the 5 rolls and the total
