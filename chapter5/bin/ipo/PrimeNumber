@@ -1,0 +1,14 @@
+IPO CHART
+
+
+Program name:
+PrimeNumber
+	
+INPUT:																											
+user will input two numbers		
+
+PROCESS:
+the program will find all the prime numbers in between the two numbers			
+
+OUTPUT:	
+it will show the user all the prime numbers between the two numbers provided by the user
