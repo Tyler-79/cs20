@@ -1,0 +1,14 @@
+IPO CHART
+
+
+Program name: HiLo
+
+	
+INPUT:																											
+user will input the amount of points they want to risk and if the random number is high or low
+
+PROCESS:
+the program will make a random number and see if the users was corect if yes then the points will double if wrong then the points are lost
+
+OUTPUT:	
+it will output if the user is corect or wrong and the amount of points left

@@ -1,0 +1,15 @@
+IPO CHART
+
+
+Program name: DiceRollGame
+
+	
+INPUT:																											
+the user will input the amount of points they want to risk and if its high or low or seven
+
+PROCESS:
+it will roll two dice and combind the two numbers to see if the user is corect and to see if they win or lose and to 
+give them the corect amount of points they ernd
+
+OUTPUT:	
+it will show if they were corect and the amount of points they now have
