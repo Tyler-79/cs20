@@ -25,7 +25,7 @@ public class GameCharacter
 	
 	public void attack()
 	{
-		System.out.println(name + "attacks! deals 10 damege. ");
+		System.out.println(name + " attacks! deals 10 damege. ");
 	}
 	
 	//method 2
