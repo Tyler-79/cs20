@@ -8,9 +8,26 @@ public class GameOf21 {
 		//this is for the house to get cards
 		int card1 = (int)(Math.random() * 13 + 1);
 		int card2 = (int)(Math.random() * 13 + 1);
-		int house = card1 + card2;
+		///int house = card1 + card2;
 		System.out.println("The house has an: " + card1);
-		// + " and a " + card2 + " total of " + house // this is here to test
+		/// + " and a " + card2 + " total of " + house // this is here to test
+		if (card1 == 1 || card1 == 11) {
+			if (card1 == 11 && card1 + card2 > 21) {
+				card1 = 1;
+				int ace1 = card1 + card2;
+				return ace1;
+			} else if (card1 == 1 && card1 + card2 < 11) {
+				card1 = 1;
+				int ace1 = card1 + card2;
+				return ace1;	} 
+		} else if (card2 == 11 && card1 + card2 > 21) {
+			card2 = 1;
+			int ace2 = card1 + card2;
+			return ace2;
+		} else if (card2 == 1 && card1 + card2 < 11) {
+			card2 = 1;
+			int ace2 = card1 + card2;
+			return ace2;	} 
 		return card1 + card2;
 	}
 	
@@ -46,9 +63,14 @@ public class GameOf21 {
 	
 	public static int PlayMore() {
 		Scanner input = new Scanner(System.in);
-		System.out.println("-1 to stop: ");
+		
+		while (true) 
+		{System.out.println("(-1) to stop playing: ");
 		int play = input.nextInt();
-		while (play != -1) {
+		
+		if (play == -1) {
+			return -1;
+		}
 			//declare what's what
 			int extraCard = (int)(Math.random() * 13 + 1);
 			int house = house();
@@ -77,7 +99,7 @@ public class GameOf21 {
 				System.out.println("you had " + total + " the house had " + house);
 			}
 		}
-		return play;
+		
 	}
 
 	public static void main(String[] args) {
@@ -109,5 +131,5 @@ public class GameOf21 {
 			System.out.println("you had " + total + " the house had " + house);
 		}
 		PlayMore();
-}
+	}
 }

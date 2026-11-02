@@ -14,4 +14,16 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/UML/DiceRollGame.drawio.png</name>
+			<type>1</type>
+			<location>C:/Users/510204013/Pictures/Screenshots/Screenshot 2026-11-02 093723.png</location>
+		</link>
+		<link>
+			<name>src/UML/GameOf21.drawio.png</name>
+			<type>1</type>
+			<location>C:/Users/510204013/Downloads/Untitled Diagram.drawio.png</location>
+		</link>
+	</linkedResources>
 </projectDescription>

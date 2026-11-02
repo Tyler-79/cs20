@@ -1,13 +1,14 @@
 IPO CHART
 
 
-Program name: 
+Program name: GameOf21
 
 	
 INPUT:																											
-
+player will deal with the cards they are gvien like hit or call
 
 PROCESS:
-
+it will ether give them a card or not then no mater what it will compare the players hand to the houses hand
 
 OUTPUT:	
+it will show if they win or lose and show want the player had and what the house had
