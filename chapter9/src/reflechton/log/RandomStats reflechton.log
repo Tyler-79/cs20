@@ -1,35 +1,36 @@
 Credit Name: Chapter 9									
-Assignment Name: 
+Assignment Name: RandomStats
 										
 The following questions can help you in thinking critically about your problem-solving processes:										
 										
 Understanding the Problem										
 How did you approach understanding the challenge?										
-
+I was thinking that it was going to be simpler to make
 										
 Were there any parts of the problem you found confusing at first? If so, how did you resolve that confusion?										
-
+yes it was getting 500 random numbers into 10 groups
 										
 Planning the Solution										
 Did you create a plan or break the problem into smaller steps before coding?										
-
+no
 										
 How did you decide on the tools, data structures, or algorithms to use?										
-
+no
 										
 Implementation										
 Did you write the code in small pieces or attempt the entire solution at once?										
-
+attempted it all at once
 										
 How did you test your solution along the way to make sure it was working?										
-
+yes
 										
 Overcoming Challenges										
 What part of the problem was the most difficult for you?										
-
+getting 500 random numbers into 10 groups
 										
 How did you handle moments when you felt stuck or unsure of what to do next?										
-
+googled it to see if other people did it
 										
 Learning										
 Was there anything you learned that you think will help you with future challenges?										
+getting 500 random numbers into 10 groups
