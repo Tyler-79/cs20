@@ -1,0 +1,14 @@
+IPO CHART
+
+
+Program name: Coder
+
+	
+INPUT:																											
+user will input a word or a sentens
+
+PROCESS:
+it will move all letters up by 2 the y & z will be a & b and any spaces will stay spaces
+
+OUTPUT:	
+it will show the coded words

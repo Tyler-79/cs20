@@ -1,0 +1,14 @@
+IPO CHART
+
+
+Program name: RandomStats
+
+	
+INPUT:																											
+no user input needed
+
+PROCESS:
+it will make 500 random numbers and sort them into 10 groups
+
+OUTPUT:	
+it will show the 10 groups and how much numbers it has
