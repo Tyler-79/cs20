@@ -1,4 +1,3 @@
-
 //Add Phidgets Library
 import com.phidget22.*;
 
@@ -35,12 +34,18 @@ public static void main(String[] args) throws Exception{
 	greenButton.open(1000);
 
 //Use your Phidgets
+	long lastPrintTime = System.currentTimeMillis();
 	while(true){
-		//System.out.println("Temperature: " + temperatureSensor.getTemperature() + " °C" );
+		 double temp = Math.round(temperatureSensor.getTemperature());
+		if (System.currentTimeMillis() - lastPrintTime >= 10000) {
+		   
+		    System.out.println("Temperature: " + temp + " °C");
+		    lastPrintTime = System.currentTimeMillis();
+		}
 		if(redButton.getState() && !redPressed) {
 			setTemp--;
 	        redPressed = true;
-	        System.out.println("New temp set: " + setTemp + "˚C" + " current room temperature: " + temperatureSensor.getTemperature() + "°C");
+	        System.out.println("New temp set: " + setTemp + "˚C" + " current room temperature: " + temp + "°C");
 	    }
 		if(!redButton.getState()) {
 	        redPressed = false;
@@ -48,24 +53,22 @@ public static void main(String[] args) throws Exception{
 		if(greenButton.getState() && !greenPressed) {
 			setTemp++;
 		     greenPressed = true;
-		     System.out.println("New temp set: " + setTemp + "˚C" + " current room temperature: " + temperatureSensor.getTemperature() + "°C");
+		     System.out.println("New temp set: " + setTemp + "˚C" + " current room temperature: " + temp + "°C");
 		}
 
 		if(!greenButton.getState()) {
 			greenPressed = false;
 		    }
 		
-		if (setTemp <= (temperatureSensor.getTemperature() + 2) && setTemp >= (temperatureSensor.getTemperature() - 2)) {
+		if (setTemp <= (temp + 2) && setTemp >= (temp - 2)) {
 			 greenLED.setState(true);
 			 redLED.setState(false);
 	         Thread.sleep(1000);
-		} else if (temperatureSensor.getTemperature() > (2 + setTemp) || temperatureSensor.getTemperature() < (2 - setTemp)) {
+		}else {
 			redLED.setState(true);
 			greenLED.setState(false);
             Thread.sleep(1000);
-            
 		}
 }
 }
 }
-  

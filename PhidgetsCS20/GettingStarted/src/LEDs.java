@@ -37,7 +37,7 @@
 	         */
 	        while(true){
 	        	redLED.setState(true);
-	            Thread.sleep(9000);
+	            Thread.sleep(1000);
 	            redLED.setState(false);
 	            Thread.sleep(1000);
 	            greenLED.setState(true);
